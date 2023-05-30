@@ -15,7 +15,7 @@
   "author": "rijwan ahmed sakib",
   "license": "ISC",
   "lint-staged": {
-    "src/**/*.ts": "yarn lint-prettier"
+    "src/**/*.ts": "yarn lint:prettier"
   },
   "dependencies": {
     "cors": "^2.8.5",
