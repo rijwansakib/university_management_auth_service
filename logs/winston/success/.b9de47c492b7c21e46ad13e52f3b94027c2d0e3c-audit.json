@@ -139,6 +139,31 @@
             "date": 1692440031761,
             "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\success\\ums-2023-08-19-16-error.log",
             "hash": "1dbd9c85fddff2e79674e999d4c29aa7f7f4c7dbc7ccf2c6583407f4253d2930"
+        },
+        {
+            "date": 1692495662287,
+            "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\success\\ums-2023-08-20-07-error.log",
+            "hash": "df7e8d1eaab7ee20d693e085df20e93886c4e7c82c5660dbc5cc43764d557c0e"
+        },
+        {
+            "date": 1692497578169,
+            "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\success\\ums-2023-08-20-08-error.log",
+            "hash": "5911f9c5f5138934d873aafb15a59cbd15ff90c8c45d29c62e55fd08eb4ac7f9"
+        },
+        {
+            "date": 1692505549002,
+            "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\success\\ums-2023-08-20-10-error.log",
+            "hash": "32d099abcc9ad20d4c68244d7a4a9b21d3e5ac3e1990d6953cdcabc89847808f"
+        },
+        {
+            "date": 1692507629293,
+            "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\success\\ums-2023-08-20-11-error.log",
+            "hash": "49f5e6ab48733a5cd6a8b06d0cfcf6d5bae2768e46722bcaa5d16cbb7db9d338"
+        },
+        {
+            "date": 1692523125638,
+            "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\success\\ums-2023-08-20-15-error.log",
+            "hash": "0328c6bea7b6124853904ab6a99d1f185e3ffa4ce5db2cb3ad9219f1f7bbb809"
         }
     ],
     "hashType": "sha256"
