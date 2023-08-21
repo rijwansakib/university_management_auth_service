@@ -164,6 +164,11 @@
             "date": 1692523125611,
             "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\error\\ums-2023-08-20-15-error.log",
             "hash": "735cd8de038b71d4d036f815ed9ac2cf78eba756898b9ff50e38bf52b9ffeabd"
+        },
+        {
+            "date": 1692530037123,
+            "name": "G:\\NEXT\\milestone3\\University Management System\\logs\\winston\\error\\ums-2023-08-20-17-error.log",
+            "hash": "01a3afbe73dc0b5c61fcc0e01625ea2f73a5c30e5a5425ef14a5127c7fe3bfa0"
         }
     ],
     "hashType": "sha256"
