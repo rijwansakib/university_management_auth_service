@@ -1,20 +1,58 @@
-import { Request, Response } from 'express'
+import { Request, RequestHandler, Response } from 'express'
 import { UserService } from './user.service'
 import catchAsync from '../../../shared/catchAsync'
 import httpStatus from 'http-status'
 import sendResponse from '../../../shared/sendResponse'
-const createUsers = catchAsync(async (req: Request, res: Response) => {
-  const { user } = req.body
-  const result = await UserService.createUsers(user)
+import { IUser } from './user.interface'
 
-  sendResponse(res, {
-    statusCode: httpStatus.OK,
-    success: true,
-    message: 'user  create successfuylly',
-    data: result,
-  })
-})
+// create student
+
+const createStudent: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const { student, ...userData } = req.body
+    const result = await UserService.createStudent(student, userData)
+
+    sendResponse<IUser>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Student  create successfuylly',
+      data: result,
+    })
+  }
+)
+
+// create Faculty
+const createFaculty: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const { faculty, ...userData } = req.body
+    const result = await UserService.createFaculty(faculty, userData)
+
+    sendResponse<IUser>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Faculty  create successfuylly',
+      data: result,
+    })
+  }
+)
+
+//create Admin
+const createAdmin: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const { admin, ...userData } = req.body
+    const result = await UserService.createAdmin(admin, userData)
+
+    sendResponse<IUser>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Admin  create successfuylly',
+      data: result,
+    })
+  }
+)
 
 export const UserController = {
-  createUsers,
+  createStudent,
+  createFaculty,
+  createAdmin,
 }

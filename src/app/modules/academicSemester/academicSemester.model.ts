@@ -8,7 +8,7 @@ import {
 import ApiError from '../../../Errors/api.errors'
 import httpStatus from 'http-status'
 
-const AcademicSemesterSchema = new Schema<IAcademicSemester>(
+const AcademicSemesterModel = new Schema<IAcademicSemester>(
   {
     title: {
       type: String,
@@ -46,7 +46,7 @@ const AcademicSemesterSchema = new Schema<IAcademicSemester>(
 
 // handiling  same data year && title
 
-AcademicSemesterSchema.pre('save', async function (next) {
+AcademicSemesterModel.pre('save', async function (next) {
   const isExist = await AcademicSemester.findOne({
     title: this.title,
     year: this.year,
@@ -62,5 +62,5 @@ AcademicSemesterSchema.pre('save', async function (next) {
 
 export const AcademicSemester = model<IAcademicSemester>(
   'AcademicSemester',
-  AcademicSemesterSchema
+  AcademicSemesterModel
 )
