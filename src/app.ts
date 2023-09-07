@@ -3,11 +3,11 @@ import cors from 'cors'
 import globalErrorHandler from './app/middleWares/globalErrorHandlers'
 import routers from './app/routes'
 import httpStatus from 'http-status'
-
+import cookierParser from 'cookie-parser'
 const app: Application = express()
 
 app.use(cors())
-
+app.use(cookierParser())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 

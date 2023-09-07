@@ -1,0 +1,120 @@
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:30:47.917Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:30:47.941Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:32:15.700Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:32:15.714Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:42:08.615Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:42:08.643Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:01.571Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:01.588Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:11.459Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:11.474Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:44.271Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:44.296Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:50.997Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:43:51.010Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:44:27.901Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:44:27.913Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:44:34.757Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:44:34.769Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:44:46.676Z'
+}
+{
+  message: 'Application app listening on port 5000',
+  level: 'info',
+  label: 'UMS',
+  timestamp: '2023-09-01T10:44:46.686Z'
+}
